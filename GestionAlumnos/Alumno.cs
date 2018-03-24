@@ -6,26 +6,11 @@ using System.Threading.Tasks;
 
 namespace GestionAlumnos
 {
-    public class Alumno :IAlumno
+    public class Alumno
     {
-        public string Apellido(string apellido)
-        {
-            return apellido;
-        }
-
-        public string Dni(string dni)
-        {
-            return dni;
-        }
-
-        public string Id(string id)
-        {
-            return id;
-        }
-
-        public string Nombre(string nombre)
-        {
-            return nombre;
-        }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string Dni { get; set; }
     }
 }
