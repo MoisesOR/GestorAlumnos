@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GestionAlumnos
 {
-    class GestorDocumento
+   public class GestorDocumento
     {
         public StreamWriter SetDocumento(string nombreDoc)
         {

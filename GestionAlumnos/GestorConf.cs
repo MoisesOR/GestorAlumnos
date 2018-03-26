@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace GestionAlumnos
 {
-    class GestorConf
+    public class GestorConf
     {
         public string GetFormato()
         {
