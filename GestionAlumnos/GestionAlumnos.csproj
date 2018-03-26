@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Alumno.cs" />
     <Compile Include="Funcionalidades.cs" />
+    <Compile Include="GestorConf.cs" />
+    <Compile Include="GestorDocumento.cs" />
     <Compile Include="Gestor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,5 +59,6 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

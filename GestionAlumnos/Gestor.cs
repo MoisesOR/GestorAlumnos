@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace GestionAlumnos
 {
-    class Gestor : Funcionalidades
+    class Gestor
     {
         static void Main(string[] args)
         {
-            FileStream fileStream = new FileStream("AdministracionAlumnos." + GetFormato(), FileMode.Create, FileAccess.Write);
-            StreamWriter documento = new StreamWriter(fileStream);
-            Menu(fileStream, documento);
+            Funcionalidades funcionalidadesMain = new Funcionalidades();
+            funcionalidadesMain.Menu();
         }
     }
 }
